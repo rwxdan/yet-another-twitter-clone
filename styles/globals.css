@@ -3,6 +3,11 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&display=swap');
 
+html,
+body {
+  scroll-behavior: smooth;
+}
+
 :root {
   @apply h-full bg-black;
 }
