@@ -13,7 +13,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         <title>BlueBird</title>
         <link rel="shortcut icon" href="/favicon.png" type="image/png" sizes="16x16" />
       </Head>
-      <div className="h-screen bg-black">
+      <div className="h-screen bg-black px-6">
         <div className="container mx-auto h-full max-w-6xl xl:px-32">
           <div className="grid h-full grid-cols-4">
             <Sidebar />
